@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+
+  web:
+    build: .
+    volumes:
+      - ./:/var/www/html
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+    ports:
+      - "9119:80"

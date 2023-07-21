@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule !\.(png|jpg|JPG|JPGEG|PNG|jpeg|gif|svg|pdf|docx|html|css|js|bmp|xls|xlsx|doc|ico|txt|swf|mp4|video|xml|zip|rar|gz|7z|log|csv|htm|flv|wmv|mp3|tmp|exe)$ - [R=404,L]
